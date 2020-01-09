@@ -1,15 +1,15 @@
-site_name: Docker 101
-site_description: A tutorial for learning to use Docker
-site_author: Docker
+site_name: ThreeEngineersID
+site_description: ThreeEngineers DevOps Curriculum
+site_author: ThreeEngineers
 # site_url: https://squidfunk.github.io/mkdocs-material/
 
 # Repository
-repo_name: dockersamples/101-tutorial
-repo_url: https://github.com/dockersamples/101-tutorial
+repo_name: theeengineers/curriculum
+repo_url: https://github.com/threeengineers/curriculum
 edit_uri: ""
 
 # Copyright
-copyright: 'Copyright &copy; 2019 Docker'
+copyright: 'Copyright &copy; 2020 ThreeEngineers'
 
 # Configuration
 theme:
@@ -22,7 +22,8 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: assets/images/favicon.png
-  logo: 'images/docker-labs-logo.svg'
+  # TODO imre change the logo here
+  logo: 'images/logo.svg'
 
 extra_css:
   - css/styles.css
@@ -43,7 +44,7 @@ plugins:
 extra:
   social:
     - type: github-alt
-      link: https://github.com/dockersamples/101-tutorial
+      link: https://github.com/threeengineers
 
 # Extensions
 markdown_extensions:
@@ -74,7 +75,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Tutorial: 
+  - Docker 101: 
     - Getting Started: tutorial/index.md
     - Our Application: tutorial/our-application/index.md
     - Updating our App: tutorial/updating-our-app/index.md

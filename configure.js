@@ -18,7 +18,7 @@ mkdocData.theme.language = languageData.language_code;
 
 mkdocData.nav = [
     { 
-        [languageData.nav.Tutorial.title] : [
+        [languageData.nav['Docker 101'].title] : [
             { [languageData.nav['Getting Started'].title] : `${languageData.tutorial_dir_name}/index.md`, },
             { [languageData.nav['Our Application'].title] : `${languageData.tutorial_dir_name}/${languageData.nav['Our Application'].dir_name}/index.md` }, 
             { [languageData.nav['Updating our App'].title] : `${languageData.tutorial_dir_name}/${languageData.nav['Updating our App'].dir_name}/index.md` }, 
